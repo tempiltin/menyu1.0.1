@@ -1,8 +1,18 @@
 import React from 'react'
+import { Route, Routes } from 'react-router-dom'
+import Index from './home/Index';
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+    
+    <Routes>
+
+      <Route path='*'  element={<Index />}/>
+    </Routes>
+    
+    
+    </>
   )
 }
 
