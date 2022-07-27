@@ -1,13 +1,21 @@
-body {
-  margin: 0;padding: 0;
+
+*{
+  margin: 0 ;
+  padding: 0 ;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+}
+body {
+  
+ 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ 
+}
+#_p_r_o_g_r_o_o_t_{
+  width: 100% !important;
 }
 :root{
   --p-color:#FF6838;
@@ -16,6 +24,7 @@ body {
  width: 100%;
  background: #fbfbfb;
   h4{
+    padding-top: 10px;
     font-size: 22px;
     font-weight: 400;
     color: #302F3C;
@@ -28,4 +37,95 @@ body {
     text-align: center;
     color: var(--p-color);
   }
+}
+
+// CARD =================================================
+
+.card{
+  width: 170px;
+  height: 265px;
+  background: #302F3C;
+  border-radius: 30px;
+ 
+  .card_img{
+    width: 100% !important;
+    margin-top: 25px;
+    display: flex;
+    overflow: hidden;
+    img{
+      width: 80% ;
+      margin: auto !important;
+    }
+  }
+
+  .card_body{
+    width: 100%;
+    height: auto;
+    h4{
+      color: white;
+      text-align: center;
+      font-size: 18px;
+    
+    }
+    h6{
+      margin-top: 10px;
+      font-size: 10px;
+      color: #fbfbfb;
+      text-align: center;
+      
+    }
+    .but{
+      display: flex;
+      justify-content: center;
+    }
+    button{
+      font-size: 18px;
+      font-weight: 900;
+     padding:10px 40px ;
+     border-radius: 16px;
+     margin-top: 10px;
+     border: none;
+     transform: scale(1);
+     transition: 500ms;
+    }
+    button:hover{
+     transform: scale(1.1);
+    }
+  }
+}
+// swiper =========================================
+.category_name{
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background: var(--p-color);
+  color: #fbfbfb;
+  border-radius: 16px;
+}
+
+// ProdView js component =============================================================================================
+
+.ProdView{
+  width: 100%;
+  min-height: 60%;
+  background: #fbfbfb;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  z-index: 1000000;
+  transform: scale(1);
+  
+}
+.fix{
+  border: none;
+  font-size: 28px;
+  text-align: center;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 16px;
+  margin: 10px;
+}
+.imgview{
+  width: 70%;
 }

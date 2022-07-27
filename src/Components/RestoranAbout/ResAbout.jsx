@@ -3,7 +3,7 @@ import { FiCheckCircle } from 'react-icons/fi'
 
 const ResAbout = (props) => {
   return (
-    <div className="container p-0">
+    <div className="container ">
     <div className="row justify-content-center align-center ">
       <h4 className="col-auto "><FiCheckCircle />Stol {props.stolNum}</h4>
     </div>
