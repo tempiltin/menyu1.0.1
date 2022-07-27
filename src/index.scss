@@ -1,0 +1,31 @@
+body {
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+:root{
+  --p-color:#FF6838;
+}
+.home_page{
+ width: 100%;
+ background: #fbfbfb;
+  h4{
+    font-size: 22px;
+    font-weight: 400;
+    color: #302F3C;
+    svg{
+      color: var(--p-color);
+    }
+  }
+  h1{
+    font-size: 24px;
+    text-align: center;
+    color: var(--p-color);
+  }
+}
