@@ -16,8 +16,8 @@ const Index = () => {
   const [data, setData] = useState([]); // For Data base
   const [state, setState] = useState(false); // about page scale()
   const [about , setAbout] = useState([])  // about page for data
-  const [amount,setAmount] = useState(0);
-
+  const [amount,setAmount] = useState(1);
+console.log(data);
   useEffect(() => {
     allFoodGet()
   }, [])

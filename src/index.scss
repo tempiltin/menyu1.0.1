@@ -1,38 +1,44 @@
-
-*{
-  margin: 0 ;
-  padding: 0 ;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
 }
+::-webkit-scrollbar{display: none;}
 body {
-  
- 
+
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
- 
+
 }
-#_p_r_o_g_r_o_o_t_{
+
+#_p_r_o_g_r_o_o_t_ {
   width: 100% !important;
 }
-:root{
-  --p-color:#FF6838;
+
+:root {
+  --p-color: #FF6838;
 }
-.home_page{
- width: 100%;
- background: #fbfbfb;
-  h4{
+
+.home_page {
+  width: 100%;
+  background: #fbfbfb;
+
+  h4 {
     padding-top: 10px;
     font-size: 22px;
     font-weight: 400;
     color: #302F3C;
-    svg{
+
+    svg {
       color: var(--p-color);
     }
   }
-  h1{
+
+  h1 {
     font-size: 24px;
     text-align: center;
     color: var(--p-color);
@@ -41,60 +47,67 @@ body {
 
 // CARD =================================================
 
-.card{
+.card {
   width: 170px;
   height: 265px;
   background: #302F3C;
   border-radius: 30px;
- 
-  .card_img{
+
+  .card_img {
     width: 100% !important;
     margin-top: 25px;
     display: flex;
     overflow: hidden;
-    img{
-      width: 80% ;
+
+    img {
+      width: 80%;
       margin: auto !important;
     }
   }
 
-  .card_body{
+  .card_body {
     width: 100%;
     height: auto;
-    h4{
+
+    h4 {
       color: white;
       text-align: center;
       font-size: 18px;
-    
+
     }
-    h6{
+
+    h6 {
       margin-top: 10px;
       font-size: 10px;
       color: #fbfbfb;
       text-align: center;
-      
+
     }
-    .but{
+
+    .but {
       display: flex;
       justify-content: center;
     }
-    button{
+
+    button {
       font-size: 18px;
       font-weight: 900;
-     padding:10px 40px ;
-     border-radius: 16px;
-     margin-top: 10px;
-     border: none;
-     transform: scale(1);
-     transition: 500ms;
+      padding: 10px 40px;
+      border-radius: 16px;
+      margin-top: 10px;
+      border: none;
+      transform: scale(1);
+      transition: 500ms;
     }
-    button:hover{
-     transform: scale(1.1);
+
+    button:hover {
+      transform: scale(1.1);
     }
   }
 }
+
 // swiper =========================================
-.category_name{
+.category_name {
   font-size: 18px;
   padding: 10px;
   margin-bottom: 10px;
@@ -106,60 +119,126 @@ body {
 
 // ProdView js component =============================================================================================
 
-.ProdView{
+.ProdView {
   width: 100%;
   min-height: 100%;
-  background: #b8acac;
+  background: #ffffff;
   position: fixed;
   bottom: 0px;
   left: 0px;
   z-index: 1000000;
   transform: scale(1);
   transition: 500ms;
-  
+
 }
-.ProdViewFalse{
+
+.ProdViewFalse {
   width: 100%;
   min-height: 100%;
-  background: #989090;
+  background: #ffffff;
   position: fixed;
   bottom: -100%;
   left: 0px;
   z-index: 1000000;
   transform: scale(0);
   transition: 500ms;
-  
+
 }
-.fix{
+
+.fix {
   border: none;
   font-size: 28px;
   text-align: center;
   align-items: center;
-  padding: 10px 15px;
+  padding: 6px;
   border-radius: 16px;
   margin: 10px;
 }
-.imgview{
+
+.imgview {
   width: 70%;
 }
-.btn{
-  font-size: 1.2rem;
+
+.btn {
+  font-size: 1.6rem;
   text-align: center;
   border: 0;
   outline: none;
   border-radius: 10px;
-  box-shadow: 1px -3px 52px -5px rgba(0,0,0,0.77);
+  background: rgb(242, 200, 59);
+
   cursor: pointer;
 }
-.btn_add{
+
+.btn_add {
   font-size: 28px;
-  display: block;
   text-align: center;
-  
+  padding: 6px;
+
 }
-.add_remove{
-  padding: 7px 30px;
+
+.add_remove {
+  padding: 6px;
 }
-.asd{
-  padding: 7px 20px;
+
+.asd {
+
+  padding: 6px;
+}
+
+
+.main_rel {
+  .name_div {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+  }
+}
+
+
+.seeCard {
+  width: 100%;
+  height: 100px;
+  box-shadow: 1px -3px 10px -5px rgba(0, 0, 0, 0.77);
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+
+  //===============================================
+  .btn_body {
+    width: 45%;
+    display: flex;
+    align-items: center;
+
+    span {
+      padding: 10px;
+    }
+  }
+
+  //===============================================
+  .cardPrice {
+    width: 45%;
+    display: block;
+     padding-top: 20px;
+    li:nth-child(1) {
+      font-weight: 900;
+      font-size: 20px;
+    }
+    li:nth-child(1)::after{
+      content: " so'm";
+    }
+    li:nth-child(2) {
+      font-weight: 700;
+      font-size: 22px;
+    }
+
+  }
+}
+.flex-dddd{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+height: 400px;
+  background: #FF6838  ;
 }
