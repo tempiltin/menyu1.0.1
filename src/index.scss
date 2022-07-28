@@ -114,7 +114,7 @@ body {
   bottom: 0px;
   left: 0px;
   z-index: 1000000;
-  transform: scale(1);
+  transform: scale(0);
   
 }
 .fix{
@@ -128,4 +128,17 @@ body {
 }
 .imgview{
   width: 70%;
+}
+.btn_add{
+  font-size: 28px;
+  // width: 80px;
+  display: block;
+  text-align: center;
+  
+}
+.add_remove{
+  padding: 7px 40px;
+}
+.asd{
+  padding: 7px 20px;
 }

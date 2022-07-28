@@ -1,0 +1,246 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "WczP97W0hnkN7q5_F-lEbkjaF9Q",
+  "nextPageToken": "EAAaBlBUOkNBVQ",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "9sV2uyaaXmWiWyVcwFvaF3LY8ww",
+      "id": "UExZNE4tNEZKZFpRQ3pqUnhqRmZIUTU3eEFZdkttazJZby41NkI0NEY2RDEwNTU3Q0M2",
+      "snippet": {
+        "publishedAt": "2018-09-12T17:12:01Z",
+        "channelId": "UCwyh6lL8iwZHYO4bF63001A",
+        "title": "1. C++ ga kirish -  C++da dasturlash darslari",
+        "description": "C++ dasturlash tiliga kirish, kompilyatorlar bilan tanishish\nLinks:\nhttps://visualstudio.microsoft.com/\nhttp://www.eclipse.org/downloads/packages/\nhttps://www.jetbrains.com/clion/\nhttp://www.codeblocks.org/\n\nInstagram: https://www.instagram.com/bobobekturdiev/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2BlETkdYFJk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2BlETkdYFJk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2BlETkdYFJk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/2BlETkdYFJk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/2BlETkdYFJk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Programmer UZ",
+        "playlistId": "PLY4N-4FJdZQCzjRxjFfHQ57xAYvKmk2Yo",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "2BlETkdYFJk"
+        },
+        "videoOwnerChannelTitle": "Programmer UZ",
+        "videoOwnerChannelId": "UCwyh6lL8iwZHYO4bF63001A"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Xsh9Oa_DGgjU9bM3j_gyzeY-0N8",
+      "id": "UExZNE4tNEZKZFpRQ3pqUnhqRmZIUTU3eEFZdkttazJZby4yODlGNEE0NkRGMEEzMEQy",
+      "snippet": {
+        "publishedAt": "2018-09-12T18:11:17Z",
+        "channelId": "UCwyh6lL8iwZHYO4bF63001A",
+        "title": "2. Dastlabki buyruqlar  -  C++da dasturlash darslari",
+        "description": "C++ da dastlabki buyruqlar bilan tanishish, satrni ekranga chiqarish.\n\n---------------------------\n\nInstagram: https://www.instagram.com/bobobekturdiev/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pYiGITH2z3s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pYiGITH2z3s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pYiGITH2z3s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/pYiGITH2z3s/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/pYiGITH2z3s/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Programmer UZ",
+        "playlistId": "PLY4N-4FJdZQCzjRxjFfHQ57xAYvKmk2Yo",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "pYiGITH2z3s"
+        },
+        "videoOwnerChannelTitle": "Programmer UZ",
+        "videoOwnerChannelId": "UCwyh6lL8iwZHYO4bF63001A"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "76pf_r5yByDKMGYcJpA2ruhv-Dw",
+      "id": "UExZNE4tNEZKZFpRQ3pqUnhqRmZIUTU3eEFZdkttazJZby4wMTcyMDhGQUE4NTIzM0Y5",
+      "snippet": {
+        "publishedAt": "2018-09-14T17:47:00Z",
+        "channelId": "UCwyh6lL8iwZHYO4bF63001A",
+        "title": "3. O'zgaruvchilar -  C++da dasturlash darslari",
+        "description": "C++da o'zgaruvchilar va int toifasi bilan tanishish.\n\n---------------------------\n\nInstagram: https://www.instagram.com/bobobekturdiev/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IgO3wN-17yw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IgO3wN-17yw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IgO3wN-17yw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/IgO3wN-17yw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/IgO3wN-17yw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Programmer UZ",
+        "playlistId": "PLY4N-4FJdZQCzjRxjFfHQ57xAYvKmk2Yo",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "IgO3wN-17yw"
+        },
+        "videoOwnerChannelTitle": "Programmer UZ",
+        "videoOwnerChannelId": "UCwyh6lL8iwZHYO4bF63001A"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "n1RJV57Suxc-8lXadD_HtlwPuyA",
+      "id": "UExZNE4tNEZKZFpRQ3pqUnhqRmZIUTU3eEFZdkttazJZby4wOTA3OTZBNzVEMTUzOTMy",
+      "snippet": {
+        "publishedAt": "2018-09-16T09:41:55Z",
+        "channelId": "UCwyh6lL8iwZHYO4bF63001A",
+        "title": "4.  Increament va decreament amallari -  C++da dasturlash darslari",
+        "description": "C++ da inkrement va dekrement amallari\n\nwww.programmer.uz\n\n---------------------------\n\nInstagram: https://www.instagram.com/bobobekturdiev/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rUyAdWKZTKU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rUyAdWKZTKU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rUyAdWKZTKU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/rUyAdWKZTKU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/rUyAdWKZTKU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Programmer UZ",
+        "playlistId": "PLY4N-4FJdZQCzjRxjFfHQ57xAYvKmk2Yo",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "rUyAdWKZTKU"
+        },
+        "videoOwnerChannelTitle": "Programmer UZ",
+        "videoOwnerChannelId": "UCwyh6lL8iwZHYO4bF63001A"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "sEY-g1sNjWJAR7Z9v68SR1rnW00",
+      "id": "UExZNE4tNEZKZFpRQ3pqUnhqRmZIUTU3eEFZdkttazJZby4xMkVGQjNCMUM1N0RFNEUx",
+      "snippet": {
+        "publishedAt": "2018-09-16T11:12:02Z",
+        "channelId": "UCwyh6lL8iwZHYO4bF63001A",
+        "title": "5. Haqiqiy sonlar -  C++da dasturlash darslari",
+        "description": "C++ da haqiqiy sonlar ustida amallar va funksiyalar\n\n---------------------------\n\nInstagram: https://www.instagram.com/bobobekturdiev/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6uLHsaXxTNE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6uLHsaXxTNE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6uLHsaXxTNE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/6uLHsaXxTNE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/6uLHsaXxTNE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Programmer UZ",
+        "playlistId": "PLY4N-4FJdZQCzjRxjFfHQ57xAYvKmk2Yo",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "6uLHsaXxTNE"
+        },
+        "videoOwnerChannelTitle": "Programmer UZ",
+        "videoOwnerChannelId": "UCwyh6lL8iwZHYO4bF63001A"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 42,
+    "resultsPerPage": 5
+  }
+}
