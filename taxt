@@ -1,3 +1,38 @@
 # menyu
 
 1 RestoranAbout componentani yaratdim
+
+
+
+
+
+
+cart api ga yuborish   // api  post uchun  https://stratappresturant.herokuapp.com/api/v1/order/create_api/
+
+
+  // const cart = { 
+  //   "order_id": null,
+  //   "table_num": 2,
+  //   "people_number":4,
+  //   "paymant":3,
+  //   "product":[
+  //     {
+  //       "product_id":1,
+  //       "product_amount_id":1,
+  //       "amount":2
+
+  //     }
+  //   ]
+  // }
+
+{
+    "order_id": null,
+    "table_num": 2,
+    "people_number": 3,
+    "status": 1,
+    "paymant": 1,
+    "product" : [
+        {"product_id": 1, "product_amount_id": 2, "quantity": 3 }
+
+    ]
+}

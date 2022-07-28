@@ -108,13 +108,26 @@ body {
 
 .ProdView{
   width: 100%;
-  min-height: 60%;
-  background: #fbfbfb;
+  min-height: 100%;
+  background: #b8acac;
   position: fixed;
   bottom: 0px;
   left: 0px;
   z-index: 1000000;
+  transform: scale(1);
+  transition: 500ms;
+  
+}
+.ProdViewFalse{
+  width: 100%;
+  min-height: 100%;
+  background: #989090;
+  position: fixed;
+  bottom: -100%;
+  left: 0px;
+  z-index: 1000000;
   transform: scale(0);
+  transition: 500ms;
   
 }
 .fix{
@@ -129,15 +142,23 @@ body {
 .imgview{
   width: 70%;
 }
+.btn{
+  font-size: 1.2rem;
+  text-align: center;
+  border: 0;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 1px -3px 52px -5px rgba(0,0,0,0.77);
+  cursor: pointer;
+}
 .btn_add{
   font-size: 28px;
-  // width: 80px;
   display: block;
   text-align: center;
   
 }
 .add_remove{
-  padding: 7px 40px;
+  padding: 7px 30px;
 }
 .asd{
   padding: 7px 20px;
