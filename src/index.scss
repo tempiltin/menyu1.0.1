@@ -6,6 +6,7 @@
   text-decoration: none;
 }
 ::-webkit-scrollbar{display: none;}
+
 body {
 
 
@@ -127,8 +128,7 @@ body {
   bottom: 0px;
   left: 0px;
   z-index: 1000000;
-  transform: scale(1);
-  transition: 500ms;
+  transition: 100ms;
 
 }
 
@@ -137,11 +137,10 @@ body {
   min-height: 100%;
   background: #ffffff;
   position: fixed;
-  bottom: -100%;
+  bottom: -120%;
   left: 0px;
   z-index: 1000000;
-  transform: scale(0);
-  transition: 500ms;
+  transition: 100ms;
 
 }
 
@@ -203,6 +202,7 @@ body {
   border-radius: 15px;
   display: flex;
   justify-content: space-around;
+  margin: 10px auto;
 
   //===============================================
   .btn_body {
@@ -234,11 +234,14 @@ body {
 
   }
 }
+//   overflow-y: scroll;
 .flex-dddd{
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
-height: 400px;
-  background: #FF6838  ;
+  height: 400px;
+  overflow-y: scroll;
+  background: #efeae8  ;
+  margin-bottom: 50px;
 }

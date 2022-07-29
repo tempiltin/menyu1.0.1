@@ -20,7 +20,7 @@ const Index = () => {
   const [item_id, setItemId] = useState(0)
 
 
-
+  console.log(item_id);
 
 
   // const sendCart = {
@@ -38,15 +38,11 @@ const Index = () => {
   //   ]
   // }
 
-  const newproduct = [
-    {
-      product_id: product.product_id,
-      amount_id: item_id,
-      amount: quantity,
-    }
-
-  ]
-  console.log(newproduct);
+  // const product = {
+  //     product_id:about.product_id,
+  //     amount_id:about,
+  //     amount: amount
+  //   }
 
 
   useEffect(() => {
@@ -61,13 +57,8 @@ const Index = () => {
   };
 
   const addItem = (index) => {
-    // console.log(product.amount[index].amount_id)
-    setItemId(product.amount[index].amount_id)
-    // const am_id = product.amount[index].amount_id
-
-
+    console.log(product.amount[index].amount_id)
     setQuantity(quantity + 1);
-
   }
 
   const removeAmount = () => {
@@ -88,17 +79,16 @@ const Index = () => {
     if (state) {
       setState(false);
     } else {
-      setState(true);
-      // setProduct(key.product[index])
-      //  setItemId()
+     // setProduct(key.product[index])
+    //  setItemId()
     }
   }
 
 
   const onIndex = (e, key, index) => {
     onSee(e);
-    setProduct(key.product[index])
-    setItemId()
+    setAbout(key.product[index])
+    setAmount_id()
   }
 
 
@@ -136,7 +126,6 @@ const Index = () => {
           Amount={(index) => addItem(index)}
           removeAmount={removeAmount}
           amount={quantity}
-          newproduct={newproduct}
         />
       </main>
     </>

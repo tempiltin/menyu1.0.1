@@ -1,0 +1,7 @@
+product = [
+    {
+        index : 0, 
+        amount_id : 125,
+        quantity: 5,
+    }, 
+]

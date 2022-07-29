@@ -2,7 +2,7 @@ import React from 'react'
 import { FiX, FiMinus, FiPlus } from 'react-icons/fi'
 import fro from '../../image/image-removebg-preview (4).png'
 const ProdView = (props) => {
-    console.log(props.about.amount);
+
     return (
         <main className={props.state ? `ProdView main_rel` : "ProdViewFalse main_rel"}>
             <div className="name_div">
@@ -30,8 +30,8 @@ const ProdView = (props) => {
                                     <li>{item.amount}</li>
                                 </div>
                                 <div className="btn_body">
-                                    <button onClick={props.Amount} className='btn add_remove'><FiPlus /></button>
-                                    <span className=''>{props.amount}</span>
+                                    <button onClick={()=>props.Amount(index)} className='btn add_remove'><FiPlus /></button>
+                                    <span className=''>{ props.newproduct.amount}</span>
                                     {
                                         props.amount === 0
                                             ? ""
@@ -45,6 +45,7 @@ const ProdView = (props) => {
                     }
 
                 </div>
+                <button>Qo'shish</button>
 
             </div>
         </main>
