@@ -7,8 +7,8 @@ const ProdView = (props) => {
         <main className={props.state ? `ProdView main_rel` : "ProdViewFalse main_rel"}>
             <div className="name_div">
                 <strong>{props.about.product_name}</strong>
-                <h5>LTR</h5>
-                <h4>45 000 so'm</h4>
+                <h5>dona</h5>
+                <h4> 0 so'm</h4>
             </div>
             <div className="container">
                 <div className="row justify-content-between">

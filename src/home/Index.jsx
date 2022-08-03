@@ -18,8 +18,8 @@ const Index = () => {
   const [product, setProduct] = useState([])  // about page for data
   const [quantity, setQuantity] = useState(0);
   const [item_id, setItemId] = useState(0)
-
-
+// console.log(product);
+// console.log(product);
 
 
 
@@ -37,6 +37,9 @@ const Index = () => {
   //     },
   //   ]
   // }
+  
+  
+  //https://github.com/tempiltin/menyu1.0.1.git
 
   const newproduct = [
     {
@@ -46,7 +49,7 @@ const Index = () => {
     }
 
   ]
-  console.log(newproduct);
+  // console.log(newproduct);
 
 
   useEffect(() => {
@@ -62,12 +65,11 @@ const Index = () => {
 
   const addItem = (index) => {
     // console.log(product.amount[index].amount_id)
+   
+   
     setItemId(product.amount[index].amount_id)
     // const am_id = product.amount[index].amount_id
-
-
     setQuantity(quantity + 1);
-
   }
 
   const removeAmount = () => {
