@@ -6,7 +6,7 @@ const ProdView = (props) => {
     return (
         <main className={props.state ? `ProdView main_rel` : "ProdViewFalse main_rel"}>
             <div className="name_div">
-                <strong>{props.about.product_name}</strong>
+                <strong>Product name</strong>
                 <h5>dona</h5>
                 <h4> 0 so'm</h4>
             </div>
@@ -22,27 +22,21 @@ const ProdView = (props) => {
 
 
                 <div className="flex-dddd">
-                    {props.about.amount ?
-                        props.about.amount.map((item, index) => (
-                            <div className="seeCard" key={index}>
+            
+                            <div className="seeCard" >
                                 <div className="cardPrice">
-                                    <li>{item.price}</li>
-                                    <li>{item.amount}</li>
+                                    <li>15 00</li>
+                                    <li>1</li>
                                 </div>
                                 <div className="btn_body">
-                                    <button onClick={()=>props.Amount(index)} className='btn add_remove'><FiPlus /></button>
-                                    <span className=''>{ props.newproduct.amount}</span>
-                                    {
-                                        props.amount === 0
-                                            ? ""
-                                            : <button onClick={props.removeAmount} className='btn btn_add add_remove'><FiMinus /></button>
-                                    }
+                                    <button  className='btn add_remove'><FiPlus /></button>
+                                    <span className=''>2</span>
+                                    <button  className='btn btn_add add_remove'><FiMinus /></button>
+                                
                                 </div>
 
                             </div>
-                        ))
-                        : ""
-                    }
+
 
                 </div>
                 <button>Qo'shish</button>
